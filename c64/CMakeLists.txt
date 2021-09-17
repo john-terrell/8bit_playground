@@ -8,3 +8,4 @@ include(CTest)
 
 add_subdirectory(border_flash)
 add_subdirectory(border_flash_c)
+add_subdirectory(hello_world)
