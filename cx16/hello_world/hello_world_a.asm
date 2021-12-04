@@ -8,7 +8,7 @@ CHROUT            := $FFD2
 
    jmp start
 
-message: .byte "hello, world from assembly!"
+message: .byte "hello world from assembly!"
 end_msg:
 
 NEWLINE = $0D

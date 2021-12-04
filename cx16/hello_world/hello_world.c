@@ -2,6 +2,7 @@
 
 int main()
 {
-    printf("Hello world from the land of C!\n");
+    putc(0x8E, stdout);  // Set upper case.
+    puts("hello world from c!\n");
     return 0;
 }
